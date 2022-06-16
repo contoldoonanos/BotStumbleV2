@@ -68,7 +68,7 @@ func requestWithHeader(url string, token string) {
       fmt.Printf("\n[401] Failed Maybe Auth Key Expired Or Wrong?")
     }
 	if res.StatusCode == 403 {
-		fmt.Printf("\n[403] Your Account Has Ben Banned From Server")
+		fmt.Printf("\n[403] Account Has Banned")
 	}
 	if res.StatusCode == 501 {
 		fmt.Printf("\n[501] Failed")
@@ -76,10 +76,10 @@ func requestWithHeader(url string, token string) {
 }
 
 func main() {
-	fmt.Printf("Simple Stumble Duplicate Crown & Tropy")
-	fmt.Printf("\nThis Tools Made By Ryns And Recoded By iSholved!")
-	fmt.Printf("\nReference : Revan AR, KipasGTS, NixSey, GalvinLoL")
-	fmt.Printf("\nThanks To : Nevolutions Reborn Team For Support!")
+	fmt.Printf("Simple Duplicate Trophy And Crown")
+	fmt.Printf("\nThis Tools Made ZoraGanteng")
+	fmt.Printf("\nTools For Stumble Guys Only")
+	fmt.Printf("\nThanks For Use My Tools")
 
 	fmt.Printf("\n\n\n╔═╗╔╦╗╦ ╦╔╦╗╔╗ ╦  ╔═╗  ╔╦╗╦ ╦╔═╗╦  ╦╔═╗╔═╗╔╦╗╔═╗\n")
 	fmt.Printf("╚═╗ ║ ║ ║║║║╠╩╗║  ║╣    ║║║ ║╠═╝║  ║║  ╠═╣ ║ ║╣ \n")
